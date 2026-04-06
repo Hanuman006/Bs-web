@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Sai Vishnu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Sai Vishnu</a>
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <h2>About Me</h2>
+  <p>Know more about who I am</p>
+</div>
+
+<!-- ABOUT SECTION - Grid System -->
+<section class="container my-5">
+  <div class="row g-4 align-items-start">
+
+    <!-- Profile Card -->
+    <div class="col-md-4 text-center">
+      <div class="card p-4">
+        <img src="assets/profile.png" alt="Sai Vishnu"
+          class="profile-img mx-auto mb-3"
+          onerror="this.src='https://ui-avatars.com/api/?name=Sai+Vishnu&background=00c896&color=0d1117&size=130'">
+        <h5 class="fw-bold text-white mb-1">Jamalpur Sai Vishnu</h5>
+        <p class="small mb-3" style="color:#8b949e;">Embedded Systems Developer</p>
+        <div class="d-flex justify-content-center gap-2 flex-wrap mb-3">
+          <span class="badge bg-success">IoT</span>
+          <span class="badge bg-primary">Embedded</span>
+          <span class="badge bg-secondary">Python</span>
+          <span class="badge bg-dark">C Programming</span>
+        </div>
+        <hr style="border-color:#1f2937;">
+        <ul class="list-unstyled text-start small mb-3" style="color:#9ca3af;">
+          <li class="mb-2"><i class="bi bi-geo-alt-fill me-2" style="color:#00c896;"></i>India</li>
+          <li class="mb-2"><i class="bi bi-envelope-fill me-2" style="color:#00c896;"></i>saivishnu.jamalpur@gmail.com</li>
+          <li><i class="bi bi-telephone-fill me-2" style="color:#00c896;"></i>+91 63015 77514</li>
+        </ul>
+        <a href="contact.html" class="btn btn-submit w-100">Get In Touch</a>
+      </div>
+    </div>
+
+    <!-- Bio + Grid Cards -->
+    <div class="col-md-8">
+      <div class="card p-4 mb-4">
+        <h5 class="fw-bold mb-3"><i class="bi bi-person-lines-fill me-2" style="color:#00c896;"></i>Who Am I?</h5>
+        <p>I am <strong>Jamalpur Sai Vishnu</strong>, a passionate developer focused on <strong>Embedded Systems</strong> and <strong>Software Development</strong>. I enjoy building IoT-based solutions and solving real-world problems using programming and electronics.</p>
+        <p class="mb-0" style="color:#8b949e;">I believe technology should bridge the physical and digital world, and I work toward that with every project I build.</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <div class="card p-3 h-100">
+            <h6 class="fw-bold mb-2" style="color:#00c896;"><i class="bi bi-building me-2"></i>Internship</h6>
+            <p class="mb-0 small" style="color:#9ca3af;">Completed internship at <strong class="text-white">Schneider Electric</strong>, gaining hands-on experience in industrial automation and embedded systems.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card p-3 h-100">
+            <h6 class="fw-bold mb-2" style="color:#00c896;"><i class="bi bi-cpu me-2"></i>Specialization</h6>
+            <p class="mb-0 small" style="color:#9ca3af;">Embedded Systems, IoT architecture, sensor integration, real-time data processing, and firmware development.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card p-3 h-100">
+            <h6 class="fw-bold mb-2" style="color:#00c896;"><i class="bi bi-trophy me-2"></i>Achievement</h6>
+            <p class="mb-0 small" style="color:#9ca3af;">Built 4+ end-to-end IoT and software projects spanning traffic systems, irrigation automation, and environmental monitoring.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card p-3 h-100">
+            <h6 class="fw-bold mb-2" style="color:#00c896;"><i class="bi bi-lightbulb me-2"></i>Interests</h6>
+            <p class="mb-0 small" style="color:#9ca3af;">Smart city systems, sustainable tech, public speaking, and exploring the intersection of hardware and software.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p class="mb-2">© 2025 Jamalpur Sai Vishnu. All rights reserved.</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="mailto:saivishnu.jamalpur@gmail.com"><i class="bi bi-envelope-fill fs-5"></i></a>
+      <a href="#"><i class="bi bi-github fs-5"></i></a>
+      <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
